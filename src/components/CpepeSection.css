@@ -1,0 +1,28 @@
+.cpepe-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.cpepe-image {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.cpepe-text {
+  max-width: 600px;
+}
+
+.cpepe-text h3 {
+  margin: 0 0 10px 0;
+  color: #FFA300; /* Header color */
+}
+
+.cpepe-text p {
+  margin: 5px 0;
+  color: white; /* Text color */
+}

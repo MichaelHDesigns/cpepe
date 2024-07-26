@@ -1,0 +1,17 @@
+.what-we-do {
+  text-align: center;
+  padding: 50px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service {
+  width: 20%;
+}
+
+.chef-pepe {
+  margin-top: 50px;
+}
