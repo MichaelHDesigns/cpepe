@@ -1,12 +1,28 @@
 .home {
-  text-align: center;
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
   padding: 50px;
+  color: white; /* Ensures text is white */
+  flex-direction: row; /* Ensure the logo is to the right of text */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #FFA300; /* Ensures heading is white */
+  text-align: left;
+}
+
+.text-container {
+  flex: 1; /* Allows text container to take up remaining space */
+  max-width: 600px; /* Optional: Restricts width of the text area */
 }
 
 .logo {
-  width: 150px;
-  height: auto;
+  width: 45%; /* Makes the logo 45% of the container width */
+  height: auto; /* Maintains aspect ratio */
   border-radius: 50%;
+  margin-left: 85px; /* Adds space between text and logo */
 }
 
 button {
@@ -15,4 +31,6 @@ button {
   border: none;
   color: white;
   cursor: pointer;
+  margin-top: 20px; /* Adds some space above the button */
+  display: block; /* Ensures the button takes full width below the text */
 }

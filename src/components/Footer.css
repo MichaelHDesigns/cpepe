@@ -1,68 +1,74 @@
 .footer {
-  background-color: #FFA300;
-  color: #FFA300;
-  padding: 20px 0;
-  margin-top: 10%;
+  background-color: #FFA300; /* Background color of the footer */
+  color: #FFF; /* Default text color */
+  padding: 20px 0; /* Padding for the footer */
+  margin-top: 10%; /* Space above the footer */
 }
 
 .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 1200px; /* Maximum width of the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0 20px; /* Padding inside the content container */
 }
 
 .footer-top {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 20px;
+  justify-content: space-between; /* Space out the elements */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Space below the top section */
 }
 
 .footer-top h3 {
-  margin: 0;
-  font-size: 24px;
-  color: #FFF;
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Font size for the heading */
+  color: #FFF; /* White color for the heading text */
 }
 
 .social-links {
   display: flex;
-  gap: 30px; /* Adjust as needed */
-  margin-left: 10%; /* Push the social links to the right */
+  gap: 30px; /* Space between social icons */
 }
 
 .social-links a {
-  color: white;
-  font-size: 24px; /* Adjust size of icons */
-  text-decoration: none;
+  color: #FFF; /* Color of the social icons */
+  font-size: 24px; /* Size of the social icons */
+  text-decoration: none; /* Remove underline from links */
 }
 
 .social-links a:hover {
-  color: #FFF; /* Change color on hover */
+  color: #FFF; /* Color of the icons on hover */
 }
 
 .footer-nav {
   display: flex;
-  gap: 10px;
+  gap: 10px; /* Space between navigation links */
 }
 
 .footer-nav a {
-  color: white;
-  text-decoration: none;
+  color: #FFF; /* Color of the navigation links */
+  text-decoration: none; /* Remove underline from links */
 }
 
 .footer-nav a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underline on hover */
 }
 
 .footer-bottom {
-  text-align: center;
+  text-align: center; /* Center align the text in the bottom section */
 }
 
 .footer-bottom p {
-  margin: 0;
-  font-size: 14px;
-  color: white;
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Font size for the bottom text */
+  color: #FFF; /* Color of the text */
+  text-align: center;
+}
+
+.footer-bottom a {
+  color: #FFF; /* Color of the link */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline; /* Underline on hover */
 }

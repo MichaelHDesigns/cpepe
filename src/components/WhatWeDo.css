@@ -10,6 +10,13 @@
 
 .service {
   width: 20%;
+  text-align: center; /* Center content within each service div */
+}
+
+.logo {
+  max-width: 250px; /* Increase the size as needed */
+  margin-bottom: 20px; /* Space between the logo and the heading */
+  border-radius: 50%;
 }
 
 .chef-pepe {

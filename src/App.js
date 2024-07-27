@@ -5,14 +5,20 @@ import About from './components/About';
 import WhatWeDo from './components/WhatWeDo';
 import CpepeSection from './components/CpepeSection';
 import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 import './App.css';
 
 const App = () => (
   <div className="App">
+    <NavBar />
     <Home />
     <About />
-    <WhatWeDo />
-    <CpepeSection />
+    <section id="whitepaper">
+      <WhatWeDo />
+    </section>
+    <section id="roadmap">
+      <CpepeSection />
+    </section>
     <Footer />
   </div>
 );

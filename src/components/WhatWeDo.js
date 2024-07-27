@@ -2,29 +2,29 @@ import React from 'react';
 import './WhatWeDo.css';
 
 const WhatWeDo = () => (
-  <div className="what-we-do">
+  <div id="what" className="what-we-do">
     <h2>What We Do</h2>
     <div className="services">
       <div className="service">
+        <img src="/images/PepeLogo.jpg" alt="Chef Pepe Logo" className="logo" />
         <h3>Humanely Raised</h3>
-        <p>We guarantee that our chicken...</p>
+        <p>We believe Fairness for all</p>
       </div>
       <div className="service">
+        <img src="/images/PepeLogo.jpg" alt="Chef Pepe Logo" className="logo" />
         <h3>Fed Organic Diets</h3>
-        <p>Our poultry is fed with organic...</p>
+        <p>We Appretiate our Chefs of all levels</p>
       </div>
       <div className="service">
+        <img src="/images/PepeLogo.jpg" alt="Chef Pepe Logo" className="logo" />
         <h3>Processed with Care</h3>
-        <p>We employ state of the art processing techniques...</p>
+        <p>We Bring back to our families the Wealth of a Recipe</p>
       </div>
       <div className="service">
+        <img src="/images/PepeLogo.jpg" alt="Chef Pepe Logo" className="logo" />
         <h3>Delivered Fresh</h3>
-        <p>Using our temperature-controlled delivery services...</p>
+        <p>Using our formula, will bring many to come together to enjoy seasons of life</p>
       </div>
-    </div>
-    <div className="chef-pepe">
-      <h3>Introducing Chef Pepe</h3>
-      <p>We're thrilled to introduce Chef Pepe...</p>
     </div>
   </div>
 );
