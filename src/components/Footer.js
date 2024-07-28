@@ -7,28 +7,28 @@ const Footer = () => (
       <div className="footer-top">
         <h3>UCIT.SHOP</h3>
         <div className="social-links">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <a href="https://www.facebook.com/profile.php?id=61559820970241&_rdc=1&_rdr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <a href="https://x.com/chefpepe001" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <a href="https://www.youtube.com/channel/UC9NyMA6pwhJnCnsF4YeOwEA" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
             <i className="fab fa-youtube"></i>
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/chefpepe001/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <i className="fab fa-instagram"></i>
           </a>
         </div>
         <nav className="footer-nav">
           <a href="#home">Home</a>
           <a href="#about">About</a>
-          <a href="#whitepaper">Whitepaper</a>
-          <a href="#roadmap">Roadmap</a>
+          <a href="#what">What To Do</a>
+          <a href="#cpepeSection">Chef Pepe Token</a>
         </nav>
       </div>
       <div className="footer-bottom">
-        <p>Copyright © 2024 ucit.shop | Powered by ucit.shop</p>
+        <p>Copyright © 2024 ucit.shop | Developed by <a href="https://greatcommission.me" target="_blank" rel="noopener noreferrer">Great Commission</a></p>
       </div>
     </div>
   </footer>

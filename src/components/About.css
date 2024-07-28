@@ -1,6 +1,10 @@
 .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
   text-align: center;
-  padding: 50px;
+  background-color: #000; /* Example background color */
 }
 
 .feature-image {
@@ -9,7 +13,35 @@
   border-radius: 50%;
 }
 
-p {
-  margin: 20px 0;
+.about-text {
+  max-width: 600px;
+  margin-left: 75px;
   color: white; /* Ensures text is white */
+}
+
+.mission-vision {
+  margin-top: 20px;
+}
+
+.mission, .vision {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #FFA300; /* Ensures heading is white */
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #FFA300; /* Ensures subheadings are white */
+  text-align: left;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.5;
+  text-align: left;
 }
