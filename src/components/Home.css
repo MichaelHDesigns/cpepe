@@ -1,9 +1,9 @@
 .home {
   display: flex;
-  align-items: flex-start; /* Align items to the top */
-  padding: 50px;
+  flex-direction: column;
+  align-items: center; /* Align items to the center */
+  padding: 20px;
   color: white; /* Ensures text is white */
-  flex-direction: row; /* Ensure the logo is to the right of text */
 }
 
 h1 {
@@ -19,10 +19,11 @@ h1 {
 }
 
 .logo {
-  width: 45%; /* Makes the logo 45% of the container width */
+  width: 80%;
   height: auto; /* Maintains aspect ratio */
   border-radius: 50%;
-  margin-left: 85px; /* Adds space between text and logo */
+  margin: 20px 0; /* Adds space between text and logo */
+  max-width: 300px;
 }
 
 button {
@@ -33,4 +34,17 @@ button {
   cursor: pointer;
   margin-top: 20px; /* Adds some space above the button */
   display: block; /* Ensures the button takes full width below the text */
+}
+
+@media (min-width: 769px) {
+  .home {
+    flex-direction: row;
+    align-items: flex-start; /* Align items to the top */
+    padding: 50px;
+  }
+
+  .logo {
+    width: 45%; /* Makes the logo 45% of the container width */
+    margin-left: 85px; /* Adds space between text and logo */
+  }
 }

@@ -13,20 +13,23 @@
 
 .footer-top {
   display: flex;
+  flex-direction: column;
   justify-content: space-between; /* Space out the elements */
   align-items: center; /* Align items vertically */
   margin-bottom: 20px; /* Space below the top section */
 }
 
-.footer-top h3 {
-  margin: 0; /* Remove default margin */
+.footer-logo {
   font-size: 24px; /* Font size for the heading */
   color: #FFF; /* White color for the heading text */
+  text-align: center; /* Align center */
 }
 
 .social-links {
   display: flex;
   gap: 30px; /* Space between social icons */
+  justify-content: center; /* Center the social links */
+  margin: 20px 0;
 }
 
 .social-links a {
@@ -42,6 +45,7 @@
 .footer-nav {
   display: flex;
   gap: 10px; /* Space between navigation links */
+  justify-content: center; /* Align center */
 }
 
 .footer-nav a {
@@ -58,10 +62,12 @@
 }
 
 .footer-bottom p {
-  margin: 0; /* Remove default margin */
-  font-size: 24px; /* Font size for the bottom text */
-  color: #FFF; /* Color of the text */
+  line-height: 1.5;
   text-align: center;
+  font-weight: bold;
+  margin: 0; /* Remove default margin */
+  font-size: 16px; /* Font size for the bottom text */
+  color: #FFF; /* Color of the text */
 }
 
 .footer-bottom a {
@@ -71,4 +77,24 @@
 
 .footer-bottom a:hover {
   text-decoration: underline; /* Underline on hover */
+}
+
+@media (min-width: 769px) {
+  .footer-top {
+    flex-direction: row;
+  }
+
+  .footer-logo {
+    flex: 1;
+    text-align: left;
+  }
+
+  .social-links {
+    flex: 1;
+  }
+
+  .footer-nav {
+    flex: 1;
+    justify-content: flex-end;
+  }
 }

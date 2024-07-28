@@ -6,8 +6,13 @@ const CpepeSection = () => (
     <img src="/images/PepeLogo.jpg" alt="Chef Pepe" className="cpepe-image" />
     <div className="cpepe-text">
       <h3>CPEPE Contract Address</h3>
-      <p>We're thrilled to introduce Chef Pepe (CPEPE), the first meme coin launched on <strong className="highlight">UCIT.Shop</strong></p>
-      <p><strong>Address:</strong> COMING SOON!!!!!</p>
+      <p>We're thrilled to introduce Chef Pepe <strong className="highlight">(CPEPE)</strong>, the first meme coin launched on <strong className="highlight">UCIT.Shop</strong></p>
+      <h4>Address:</h4>
+      <p className="contract-address">
+        <a href="https://pump.fun/widget?contract=2wqsY9osgN1t7xdAbnKHydA4fP2HAWfHgS29sBFGpump" target="_blank" rel="noopener noreferrer">
+          2wqsY9osgN1t7xdAbnKHydA4fP2HAWfHgS29sBFGpump
+        </a>
+      </p>
     </div>
   </div>
 );

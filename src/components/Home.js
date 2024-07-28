@@ -3,7 +3,7 @@ import './Home.css';
 
 const Home = () => {
   const handleClick = () => {
-    window.location.href = 'https://pump.fun'; // Redirects to the specified URL
+    window.open('https://pump.fun/2wqsY9osgN1t7xdAbnKHydA4fP2HAWfHgS29sBFGpump', '_blank'); // Opens the trading widget in a new tab
   };
 
   return (
@@ -11,10 +11,10 @@ const Home = () => {
       <div className="text-container">
         <h1>Welcome to UCIT.Shop</h1>
         <p>Welcome to UCIT.Shop, your ultimate destination for exclusive NFTs and meme coins on the Solana blockchain. Dive into a world where digital art meets functionality, and secure your piece of the digital future with us.</p>
-        <p>Additional information or content can go here.</p>
+        <p>Chef Pepe is now available on Pump.fun!!</p>
         <button onClick={handleClick}>Buy Chef Pepe Today!!</button>
       </div>
-      <img src="/images/PepeLogo.jpg" alt="Chef Pepe" className="logo" />
+      <img src="/images/Home.png" alt="Chef Pepe" className="logo" />
     </div>
   );
 };

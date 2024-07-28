@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="footer-content">
       <div className="footer-top">
-        <h3>UCIT.SHOP</h3>
+        <h3 className="footer-logo">UCIT.SHOP</h3>
         <div className="social-links">
           <a href="https://www.facebook.com/profile.php?id=61559820970241&_rdc=1&_rdr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <i className="fab fa-facebook-f"></i>
