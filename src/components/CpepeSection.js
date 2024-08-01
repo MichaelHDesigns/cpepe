@@ -9,8 +9,8 @@ const CpepeSection = () => (
       <p>We're thrilled to introduce Chef Pepe <strong className="highlight">(CPEPE)</strong>, the first meme coin launched on <strong className="highlight">UCIT.Shop</strong></p>
       <h4>Address:</h4>
       <p className="contract-address">
-        <a href="https://pump.fun/widget?contract=2wqsY9osgN1t7xdAbnKHydA4fP2HAWfHgS29sBFGpump" target="_blank" rel="noopener noreferrer">
-          2wqsY9osgN1t7xdAbnKHydA4fP2HAWfHgS29sBFGpump
+        <a href="https://dexscreener.com/solana/g3tbrxolvzbptw2zeicpcbadgfun6funztmxspamh6gg" target="_blank" rel="noopener noreferrer">
+          g3tbrxolvzbptw2zeicpcbadgfun6funztmxspamh6gg
         </a>
       </p>
     </div>
