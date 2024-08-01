@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import ChickenRecipe from './components/ChickenRecipe';
 import DesertsRecipe from './components/DesertsRecipe';
+import AppetizerRecipe from './components/AppetizerRecipe';
+import DrinksRecipe from './components/DrinksRecipe';
 import './App.css';
 
 const App = () => (
@@ -30,6 +32,8 @@ const App = () => (
       } />
       <Route path="/chicken-recipe" element={<ChickenRecipe />} />
       <Route path="/deserts-recipe" element={<DesertsRecipe />} />
+      <Route path="/appetizers-recipe" element={<AppetizerRecipe />} />
+      <Route path="/drinks-recipe" element={<DrinksRecipe />} />
     </Routes>
   </Router>
 );

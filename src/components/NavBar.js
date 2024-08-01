@@ -7,8 +7,11 @@ import './NavBar.css';
 const NavBar = () => {
   const location = useLocation();
 
-  // Determine if we are on either recipe page
-  const isOnRecipePage = location.pathname === '/chicken-recipe' || location.pathname === '/deserts-recipe';
+  // Determine if we are on any recipe page
+  const isOnRecipePage = location.pathname === '/chicken-recipe' ||
+                         location.pathname === '/deserts-recipe' ||
+                         location.pathname === '/appetizers-recipe' ||
+                         location.pathname === '/drinks-recipe';
 
   return (
     <nav className="navbar">

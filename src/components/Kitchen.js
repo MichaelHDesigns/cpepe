@@ -23,12 +23,16 @@ const WhatWeDo = () => (
       <div className="What-service">
         <img src="/images/Care.png" alt="Chef Pepe Logo" className="what-logo" />
         <h3>Processed with Care</h3>
+       <Link to="/appetizers-recipe">
         <p>We Bring back to our families the Wealth of a Recipe</p>
+        </Link>
       </div>
       <div className="What-service">
         <img src="/images/Fresh.png" alt="Chef Pepe Logo" className="what-logo" />
         <h3>Delivered Fresh</h3>
+       <Link to="/drinks-recipe">
         <p>Using our formula, will bring many to come together to enjoy seasons of life</p>
+        </Link>
       </div>
     </div>
   </div>
